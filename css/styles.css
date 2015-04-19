@@ -491,6 +491,42 @@ WORK EXPERIENCE
 	font-weight: 500;
 }
 
+/* ==========================================================================
+Personal Projects
+========================================================================== */
+.personal_projects {
+	background: black;
+}
+
+.project_title {
+	text-align: left;
+	font-family: lato;
+	font-weight: 300;
+}
+.project_title p {
+	color: #CBA128;
+}
+#project_message {
+	font-family: lato;
+	font-weight: 300;
+	text-align: left;
+}
+
+#project_message p {
+	color: #fff;
+}
+
+#project_links p {
+	font-family: lato;
+	font-weight: 300;
+	text-align: right;
+	color: #fff;
+}
+
+#projects {
+	padding: 50px 0px 50px;
+	background: #323232;
+}
 
 /* ==========================================================================
 Features
@@ -570,7 +606,7 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #FFFFFF; }
-footer { background-color: #3dc9b3; padding: 40px 0 30px; }
+footer { background-color: #323232; padding: 40px 0 30px; }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
