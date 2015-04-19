@@ -183,6 +183,7 @@ p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 1px #CBA128; display: block; width: 100%; margin: 10px 0px 10px 0px;}
 .section-padding { padding: 90px 0 100px }
+.portfolio{padding-top: 10px; }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
@@ -434,6 +435,51 @@ TECHNOLOGIES
 		margin-top: 0px;
 }
 
+
+/* ==========================================================================
+WORK EXPERIENCE
+========================================================================== */
+
+#work_experience {
+	font-family: raleway;
+	font-size: 30px;
+	color: #cba128;
+	font-weight: 300;
+}
+
+.workexperience {
+	background: #323232;
+}
+
+.work_comp h2 {
+	font-family: raleway;
+	font-weight: 500;
+	text-align: left;
+}
+
+.work_comp h2:after {
+	border: none;
+}
+
+.role {
+	text-align: left;
+	font-family: lato;
+	font-weight: 300;
+	color: #000;
+}
+
+#work_id_pos {
+	text-align: left;
+	font-family: lato;
+	font-weight: 300;
+}
+
+#work_id_comp {
+	color: #cba128;
+}
+
+
+
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -449,7 +495,7 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background: #323232; no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
