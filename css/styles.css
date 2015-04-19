@@ -478,6 +478,18 @@ WORK EXPERIENCE
 	color: #cba128;
 }
 
+.company_logo {
+	margin-right: 30px;
+}
+
+.company_logo_img {
+	margin-right: 6px;
+}
+
+.notable_projects {
+	text-align: left;
+	font-weight: 500;
+}
 
 
 /* ==========================================================================
