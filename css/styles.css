@@ -528,6 +528,32 @@ Personal Projects
 	background: #323232;
 }
 
+#project_grid #gallery #gallery-content img {
+	width: 19.6%;
+	cursor: url(cursor.png), auto;
+}
+
+#project_grid #gallery #gallery-content img:hover {
+			opacity: 0.5;
+	}
+
+#project_grid {
+	background-color: #323232;
+}
+
+@media screen and (max-width: 600px) {
+	
+	#project_grid #gallery #gallery-content img {
+			width: 100%;
+	}
+	
+	.awards_title h1 {
+		font-family: lato;
+		font-weight: 100;
+	}
+	
+}
+
 /* ==========================================================================
 Features
 ========================================================================== */
