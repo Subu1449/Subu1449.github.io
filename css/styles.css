@@ -519,7 +519,7 @@ Personal Projects
 #project_links p {
 	font-family: lato;
 	font-weight: 300;
-	text-align: right;
+	text-align: left;
 	color: #fff;
 }
 
@@ -552,6 +552,19 @@ Personal Projects
 		font-weight: 100;
 	}
 	
+}
+
+#project_links p {
+	color: #fff;
+}
+
+#project_links{
+	text-align: left;
+}
+
+#project_links a {
+	color: #fff;
+	cursor: pointer;
 }
 
 /* ==========================================================================
