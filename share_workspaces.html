@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+<body>
+<div class="main_body">
+	<!-- <p>
+		<font color="white">This update will be applied automatically...</font>
+	<p>
+	<div class="styled-select slate">
+		<select>
+		  <option value="tonight">Tonight</option>
+		  <option value="tomorrow">Tomorrow</option>
+		  <option value="nextweek">Next Week</option>
+		</select>
+	</div>
+	<p id="main_liner">
+		<font color="white">With this update, signing in with your SMART account will...</font>
+	<p> -->
+	<ol class="custom-counter">
+		<li><font color="white">Scan this QR code to download the <b>SMART Notebook</b> app</font></li>
+		<li><font color="white">From within the app, tap the button <img src="https://cdn.zeplin.io/57f81bb07d48cdd936e57f1a/assets/5A6095EA-75A7-4FD1-9862-55731B8DECB3.png" height="22px" width="22px"> to <b>Add a SMART Board</b></font></li>
+		<li><font color="white">Enter <b>Y7K4</b> to share with this board named <b>gg</b></font></li>
+	</ol>
+</div>
+</body>
+<style>
+
+div { margin: 20px; }
+
+#main_liner {
+		margin: 3em;
+		margin-left: 0em;
+}
+
+.main_body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+ol > li
+{
+    color: black;
+		margin: 2em;
+		margin-left: 0em;
+}
+
+.custom-counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 70%;
+  background-color: #19b5fc;
+  color: white;
+  font-weight: bold;
+  padding: 7px 12px;
+  border-radius: 20px;
+}
+
+.styled-select select {
+   background: #4B4758;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px;
+   width: 268px;
+}
+
+.styled-select.slate {
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 2px solid #ccc;
+	 border-radius: 5px;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+	 color: white;
+}
+
+.select-items {
+  position: absolute;
+  background-color: :#4B4758;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+</style>
+</html>
